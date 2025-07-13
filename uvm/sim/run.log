@@ -1,0 +1,133 @@
+Command: /home/ICer/my_prjs/10GE_MAC/uvm/sim/out/obj/mac_tb.simv -l run.log -sml +ntb_random_seed=1 +UVM_TESTNAME=mac_large_packet_test +UVM_VERBOSITY=UVM_HIGH -cm_dir out/cov.vdb -cm_name mac_large_packet_test_1 +UVM_VERDI_TRACE=UVM_AWARE+RAL+HIER+COMPWAVE +UVM_TR_RECORD -ucli
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Sep 18 15:21 2024
+UVM_INFO /home/synopsys/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+
+run
+ *Verdi* Enable Verdi Message Catcher.
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'novas.fsdb'
+*Verdi* : Begin dumping the Class Object by file (/home/synopsys/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/verdi/component.config).
+*Verdi* : End of class object dumping.
+UVM_INFO /home/synopsys/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/verdi/uvm_custom_install_verdi_recorder.sv(276) @ 0: reporter [VERDI_TR_AUTO] +UVM_TR_RECORD implicitly enables recording_details to UVM_FULL for all components. For explicit control use +UVM_DISABLE_AUTO_COMPONENT and set recording_detail on components accordingly
+*Verdi* Enable Verdi Factory Dumping.
+UVM_INFO @ 0: reporter [RNTST] Running test mac_large_packet_test...
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'mac_tb.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* : End of traversing.
+UVM_INFO ../env/mac_env.sv(26) @ 0: uvm_test_top.env [build_phase] mac_env: starting...
+UVM_INFO ../env/mac_env.sv(53) @ 0: uvm_test_top.env [build_phase] mac_env: starting...
+UVM_INFO ../agent/mac_mst_agent.sv(17) @ 0: uvm_test_top.env.mst_agent [build_phase] mac_mst_agent: starting...
+UVM_INFO ../agent/mac_mst_agent.sv(26) @ 0: uvm_test_top.env.mst_agent [build_phase] mac_mst_agent: finishing...
+UVM_INFO ../agent/mac_mst_driver.sv(13) @ 0: uvm_test_top.env.mst_agent.driver [build_phase] mac_mst_driver: starting...
+UVM_INFO ../agent/mac_mst_driver.sv(15) @ 0: uvm_test_top.env.mst_agent.driver [build_phase] mac_mst_driver: finishing...
+UVM_INFO ../agent/mac_mst_monitor.sv(16) @ 0: uvm_test_top.env.mst_agent.monitor [build_phase] mac_mst_monitor: starting...
+UVM_INFO ../agent/mac_mst_monitor.sv(17) @ 0: uvm_test_top.env.mst_agent.monitor [build_phase] mac_mst_monitor: finishing...
+UVM_INFO ../agent/mac_mst_sequencer.sv(14) @ 0: uvm_test_top.env.mst_agent.sequencer [build_phase] mac_mst_sequencer: starting...
+UVM_INFO ../agent/mac_mst_sequencer.sv(16) @ 0: uvm_test_top.env.mst_agent.sequencer [build_phase] mac_mst_sequencer: finishing...
+UVM_INFO ../agent/mac_slv_agent.sv(15) @ 0: uvm_test_top.env.slv_agent [build_phase] mac_slv_agent: starting...
+UVM_INFO ../agent/mac_slv_agent.sv(22) @ 0: uvm_test_top.env.slv_agent [build_phase] mac_slv_agent: finishing...
+UVM_INFO ../agent/mac_slv_monitor.sv(16) @ 0: uvm_test_top.env.slv_agent.monitor [build_phase] mac_slv_monitor: starting...
+UVM_INFO ../agent/mac_slv_monitor.sv(17) @ 0: uvm_test_top.env.slv_agent.monitor [build_phase] mac_slv_monitor: finishing...
+UVM_INFO ../agent/mac_mst_agent.sv(32) @ 0: uvm_test_top.env.mst_agent [connect_phase] mac_mst_agent: starting...
+UVM_INFO ../agent/mac_mst_agent.sv(38) @ 0: uvm_test_top.env.mst_agent [connect_phase] mac_mst_agent: finishing...
+UVM_INFO ../agent/mac_slv_agent.sv(28) @ 0: uvm_test_top.env.slv_agent [connect_phase] mac_slv_agent: starting...
+UVM_INFO ../agent/mac_slv_agent.sv(30) @ 0: uvm_test_top.env.slv_agent [connect_phase] mac_slv_agent: finishing...
+UVM_INFO ../test/mac_large_packet_test.sv(21) @ 0: uvm_test_top [SEQ] sequence starting
+UVM_INFO ../test/mac_large_packet_test.sv(25) @ 10: uvm_test_top [case0] phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(37) @ 10: uvm_test_top [case0] main phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(25) @ 20: uvm_test_top [case0] phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(37) @ 20: uvm_test_top [case0] main phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(25) @ 30: uvm_test_top [case0] phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(37) @ 30: uvm_test_top [case0] main phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(25) @ 40: uvm_test_top [case0] phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(37) @ 40: uvm_test_top [case0] main phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(25) @ 50: uvm_test_top [case0] phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(37) @ 50: uvm_test_top [case0] main phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(25) @ 60: uvm_test_top [case0] phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(37) @ 60: uvm_test_top [case0] main phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(25) @ 70: uvm_test_top [case0] phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(37) @ 70: uvm_test_top [case0] main phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(25) @ 80: uvm_test_top [case0] phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(37) @ 80: uvm_test_top [case0] main phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(25) @ 90: uvm_test_top [case0] phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(37) @ 90: uvm_test_top [case0] main phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(25) @ 100: uvm_test_top [case0] phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(28) @ 100: uvm_test_top [case0] run phase is executed
+UVM_INFO ../test/mac_large_packet_test.sv(29) @ 100: uvm_test_top [SEQ] sequence finished
+UVM_INFO ../test/mac_large_packet_test.sv(37) @ 100: uvm_test_top [case0] main phase is executed
+UVM_INFO /home/synopsys/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/base/uvm_objection.svh(1276) @ 1000000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO ../env/mac_scoreboard.sv(84) @ 1000000: uvm_test_top.env.scb [mac_scoreboard] 
+  ----------------------------------------------
+ | ScoreBoard(Enabled) Report                    |
+  ---------------------------------------------- 
+ | Transactions        expected by master     0  |
+ | Transactions        expected by slave      0  |
+ | Check    in transactions                   0  |
+ | Mismatch in data of transactions           0  |
+  ---------------------------------------------- 
+UVM_ERROR ../env/mac_scoreboard.sv(96) @ 1000000: uvm_test_top.env.scb [mac_scoreboard] Scoreboard Error : NO transaction observed on the bus
+UVM_INFO /home/synopsys/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/base/uvm_report_catcher.svh(705) @ 1000000: reporter [UVM/REPORT/CATCHER] 
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+UVM_INFO /home/synopsys/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/base/uvm_report_server.svh(894) @ 1000000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   47
+UVM_WARNING :    0
+UVM_ERROR :    1
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[SEQ]     2
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+[UVM/REPORT/CATCHER]     1
+[VERDI_TR_AUTO]     1
+[build_phase]    14
+[case0]    21
+[connect_phase]     4
+[mac_scoreboard]     2
+
+$finish called from file "/home/synopsys/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/base/uvm_root.svh", line 527.
+$finish at simulation time              1000000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1000000 ps
+CPU Time:      0.630 seconds;       Data structure size:   0.6Mb
+Wed Sep 18 15:22:00 2024

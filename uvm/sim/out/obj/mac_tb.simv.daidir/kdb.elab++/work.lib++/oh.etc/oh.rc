@@ -1,0 +1,5 @@
+@elabcom rc file Version 1.0
+[oh]
+invokeDir = /home/ICer/my_prjs/10GE_MAC/uvm/sim
+hostCommand = -elab /home/ICer/my_prjs/10GE_MAC/uvm/sim/out/obj/mac_tb.simv.daidir/kdb -simflow -top "uvm_custom_install_recording uvm_custom_install_verdi_recording mac_tb" +disable_message+C00380+C00381 +disable_message+C00388+C00389 -SNPS_ELABCOM -saveElab
+simType = VCS

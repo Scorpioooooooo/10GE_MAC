@@ -1,0 +1,122 @@
+{
+    "uvm_pkg": [
+        "uvm_pkg",
+        "zr7M1",
+        "module",
+        3
+    ],
+    "vcs_paramclassrepository": [
+        "vcs_paramclassrepository",
+        "hEeZs",
+        "module",
+        1
+    ],
+    "fault_sm": [
+        "fault_sm",
+        "zk6Si",
+        "module",
+        18
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        2
+    ],
+    "mac_tb": [
+        "mac_tb",
+        "nVJPz",
+        "module",
+        11
+    ],
+    "xge_mac": [
+        "xge_mac",
+        "ymzz2",
+        "module",
+        13
+    ],
+    "sync_clk_wb": [
+        "sync_clk_wb",
+        "UjwLm",
+        "module",
+        19
+    ],
+    "uvm_custom_install_verdi_recording": [
+        "uvm_custom_install_verdi_recording",
+        "EbjT3",
+        "module",
+        8
+    ],
+    "_vcs_msglog": [
+        "_vcs_msglog",
+        "zQBzV",
+        "module",
+        4
+    ],
+    "generic_fifo_ctrl_0000": [
+        "generic_fifo_ctrl_0000",
+        "NY7Gb",
+        "module",
+        15
+    ],
+    "_vcs_unit__3820934895": [
+        "_vcs_unit__3820934895",
+        "b4gw6",
+        "module",
+        5
+    ],
+    "uvm_custom_install_recording": [
+        "uvm_custom_install_recording",
+        "nhiwz",
+        "module",
+        6
+    ],
+    "_vcs_DPI_package": [
+        "_vcs_DPI_package",
+        "uM9F1",
+        "module",
+        7
+    ],
+    "mac_pkg": [
+        "mac_pkg",
+        "vZRFK",
+        "module",
+        9
+    ],
+    "tx_enqueue": [
+        "tx_enqueue",
+        "iNPR2",
+        "module",
+        16
+    ],
+    "xge_mac_pkg": [
+        "xge_mac_pkg",
+        "LRmG6",
+        "module",
+        10
+    ],
+    "mac_if": [
+        "mac_if",
+        "sKwyE",
+        "module",
+        12
+    ],
+    "rx_dequeue": [
+        "rx_dequeue",
+        "ZGc5j",
+        "module",
+        14
+    ],
+    "wishbone_if": [
+        "wishbone_if",
+        "s4ZT9",
+        "module",
+        21
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        22
+    ]
+}

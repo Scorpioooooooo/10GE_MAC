@@ -1,0 +1,333 @@
+gui_exclusion -set_force true
+# Preference setting overrides
+gui_set_pref_value -category {Globals} -key {app_fixed_width_font} -value {Courier [Cronyx],15,-1,5,50,0,0,0,0,0}
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_create_pref_category -category {dlg_settings}
+gui_create_pref_key -category {dlg_settings} -key {tableWithImmediatePopup} -value_type {bool} -value {true}
+gui_create_pref_category -category {schem_obj_name}
+gui_create_pref_key -category {schem_obj_name} -key {show_cell_and_pin_with_symbol_name} -value_type {bool} -value {false}
+gui_create_pref_key -category {schem_pin_hc} -key {textExtFont} -value_type {string} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_cov_databases -value {/home/ICer/my_prjs/design-test/sramc1.3/uvm/sim/out/cov.vdb /home/ICer/ic_prjs/ck-riscv/verification/regress_fun/Cov_file/merge_total.vdb}
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file vcdplus.vpd} {gui_open_db -file /home/ICer/my_prjs/design-test/test_module/qc_tb/inter.vpd -design V1} {gui_open_db -file /home/ICer/my_prjs/design-test/sramc/rtl/vcdplus.vpd -design V1} {gui_open_db -file /home/ICer/my_prjs/design-test/test_asyn_fifo/vcdplus.vpd -design V1} {gui_open_db -file /home/ICer/my_prjs/design-test/async_fifo/rtl/vcdplus.vpd -design V1}}
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -ignore_errors -file /home/ICer/my_prjs/design-test/sramc/sram_core/session.inter.vpd.tcl -ignore_errors} {gui_load_session -ignore_errors -file /home/ICer/my_prjs/design-test/test_module/qc_tb/session.inter.vpd.tcl -ignore_errors}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1717
+gui_set_state_value -category Layout -key child_console_size_y -value 630
+gui_set_state_value -category Layout -key child_covdetail_docknewline -value false
+gui_set_state_value -category Layout -key child_covdetail_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_covdetail_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_covdetail_size_x -value 1347
+gui_set_state_value -category Layout -key child_covdetail_size_y -value 510
+gui_set_state_value -category Layout -key child_coveragemap_docknewline -value false
+gui_set_state_value -category Layout -key child_coveragemap_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_coveragemap_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_coveragemap_size_x -value 1347
+gui_set_state_value -category Layout -key child_coveragemap_size_y -value 510
+gui_set_state_value -category Layout -key child_coveragetable_docknewline -value false
+gui_set_state_value -category Layout -key child_coveragetable_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_coveragetable_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_coveragetable_size_x -value 347
+gui_set_state_value -category Layout -key child_coveragetable_size_y -value 510
+gui_set_state_value -category Layout -key child_data_coltype -value 154
+gui_set_state_value -category Layout -key child_data_colvalue -value 75
+gui_set_state_value -category Layout -key child_data_colvariable -value 233
+gui_set_state_value -category Layout -key child_data_size_x -value 461
+gui_set_state_value -category Layout -key child_data_size_y -value 123
+gui_set_state_value -category Layout -key child_driver_size_x -value 1441
+gui_set_state_value -category Layout -key child_driver_size_y -value 202
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colhier -value 300
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_coltype -value 96
+gui_set_state_value -category Layout -key child_hier_size_x -value 395
+gui_set_state_value -category Layout -key child_hier_size_y -value 123
+gui_set_state_value -category Layout -key child_memory_docknewline -value false
+gui_set_state_value -category Layout -key child_memory_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_memory_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_memory_size_x -value 856
+gui_set_state_value -category Layout -key child_memory_size_y -value 487
+gui_set_state_value -category Layout -key child_schematic_docknewline -value false
+gui_set_state_value -category Layout -key child_schematic_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_schematic_pos_y -value {-20}
+gui_set_state_value -category Layout -key child_schematic_size_x -value 1135
+gui_set_state_value -category Layout -key child_schematic_size_y -value 573
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 864
+gui_set_state_value -category Layout -key child_source_size_y -value 122
+gui_set_state_value -category Layout -key child_wave_colname -value 247
+gui_set_state_value -category Layout -key child_wave_colvalue -value 247
+gui_set_state_value -category Layout -key child_wave_left -value 498
+gui_set_state_value -category Layout -key child_wave_right -value 1214
+gui_set_state_value -category Layout -key cov_main_pos_x -value 1
+gui_set_state_value -category Layout -key cov_main_pos_y -value 38
+gui_set_state_value -category Layout -key cov_main_size_x -value 1718
+gui_set_state_value -category Layout -key cov_main_size_y -value 812
+gui_set_state_value -category Layout -key main_pos_x -value 1
+gui_set_state_value -category Layout -key main_pos_y -value 38
+gui_set_state_value -category Layout -key main_size_x -value 1718
+gui_set_state_value -category Layout -key main_size_y -value 812
+gui_set_state_value -category Layout -key stand_source_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_source_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_source_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_source_child_size_x -value 1722
+gui_set_state_value -category Layout -key stand_source_child_size_y -value 670
+gui_set_state_value -category Layout -key stand_source_top_pos_x -value 26
+gui_set_state_value -category Layout -key stand_source_top_pos_y -value 82
+gui_set_state_value -category Layout -key stand_source_top_size_x -value 1743
+gui_set_state_value -category Layout -key stand_source_top_size_y -value 856
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1722
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 670
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 0
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 66
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1717
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 840
+gui_create_state_key -category Layout_CoverageTable_covtblFGroupsList -key names -value_type string -value {Group,    , ,  ,   ,Score,Assert,Covergroup,}
+gui_create_state_key -category Layout_CoverageTable_covtblFGroupsList -key orders -value_type string -value 4,0,1,2,3,5,6,7,
+gui_create_state_key -category Layout_CoverageTable_covtblFGroupsList -key widths -value_type string -value 440,25,25,0,0,125,125,125,
+gui_create_state_key -category Layout_CoverageTable_covtblInstancesList -key names -value_type string -value {Name,    , ,  ,   ,Score,Line,Toggle,FSM,Condition,Branch,Assert,}
+gui_create_state_key -category Layout_CoverageTable_covtblInstancesList -key orders -value_type string -value 4,0,1,2,3,5,6,7,8,9,10,11,
+gui_create_state_key -category Layout_CoverageTable_covtblInstancesList -key widths -value_type string -value 220,25,25,0,0,125,125,125,125,125,125,125,
+gui_create_state_key -category Layout_CoverageTable_covtblModulesList -key names -value_type string -value {Name,    , ,  ,   ,Score,Line,Toggle,FSM,Condition,Branch,Assert,}
+gui_create_state_key -category Layout_CoverageTable_covtblModulesList -key orders -value_type string -value 4,0,1,2,3,5,6,7,8,9,10,11,
+gui_create_state_key -category Layout_CoverageTable_covtblModulesList -key widths -value_type string -value 220,25,25,0,0,125,125,125,125,125,125,125,
+gui_create_state_key -category Layout_CovDetail_lnListView -key names -value_type string -value Category,Coverage,
+gui_create_state_key -category Layout_CovDetail_lnListView -key orders -value_type string -value 0,1,
+gui_create_state_key -category Layout_CovDetail_lnListView -key widths -value_type string -value 111,125,
+gui_create_state_key -category Layout_CovDetail_tglListView -key names -value_type string -value {Variable, ,  ,   ,Type,Coverage,Display,}
+gui_create_state_key -category Layout_CovDetail_tglListView -key orders -value_type string -value 3,0,1,2,4,5,6,
+gui_create_state_key -category Layout_CovDetail_tglListView -key widths -value_type string -value 140,25,0,0,50,125,757,
+gui_create_state_key -category Layout_CovDetail_tglDetailListView -key names -value_type string -value {Variable, ,  ,   ,0->1,1->0,}
+gui_create_state_key -category Layout_CovDetail_tglDetailListView -key orders -value_type string -value 3,0,1,2,4,5,
+gui_create_state_key -category Layout_CovDetail_tglDetailListView -key widths -value_type string -value 140,25,0,0,50,50,
+gui_create_state_key -category Layout_CovDetail_fsmListView -key names -value_type string -value {FSM, ,  ,   ,State,Transition,Sequence,}
+gui_create_state_key -category Layout_CovDetail_fsmListView -key orders -value_type string -value 3,0,1,2,5,4,6,
+gui_create_state_key -category Layout_CovDetail_fsmListView -key widths -value_type string -value 87,25,0,0,125,125,125,
+gui_create_state_key -category Layout_CovDetail_fsmlist -key names -value_type string -value {Coverage, ,  ,   ,Transition,}
+gui_create_state_key -category Layout_CovDetail_fsmlist -key orders -value_type string -value 3,0,1,2,4,
+gui_create_state_key -category Layout_CovDetail_fsmlist -key widths -value_type string -value 125,25,0,0,94,
+gui_create_state_key -category Layout_CovDetail_cndListView -key names -value_type string -value {Expression, ,  ,   ,ID,Coverage,Line No.,}
+gui_create_state_key -category Layout_CovDetail_cndListView -key orders -value_type string -value 3,0,1,2,4,5,6,
+gui_create_state_key -category Layout_CovDetail_cndListView -key widths -value_type string -value 320,25,0,0,0,125,87,
+gui_create_state_key -category Layout_CovDetail_brListView -key names -value_type string -value {Name, ,  ,   ,Coverage,Line No.,}
+gui_create_state_key -category Layout_CovDetail_brListView -key orders -value_type string -value 3,0,1,2,4,5,
+gui_create_state_key -category Layout_CovDetail_brListView -key widths -value_type string -value 100,25,0,0,125,63,
+gui_create_state_key -category Layout_CovDetail_designAssertListView -key names -value_type string -value {Assert Name,    , ,  ,   ,Attempts,Real Successes,Failures,Incompletes,Category,Severity,}
+gui_create_state_key -category Layout_CovDetail_designAssertListView -key orders -value_type string -value 4,0,1,2,3,5,6,7,8,9,10,
+gui_create_state_key -category Layout_CovDetail_designAssertListView -key widths -value_type string -value 110,25,25,0,0,63,106,61,82,67,62,
+gui_create_state_key -category Layout_CovDetail_codeMiddleSplitter -key value1 -value_type integer -value 613
+gui_create_state_key -category Layout_CovDetail_codeMiddleSplitter -key value2 -value_type integer -value 704
+gui_create_state_key -category Layout_CovDetail_cndSplitter -key value1 -value_type integer -value 100
+gui_create_state_key -category Layout_CovDetail_cndSplitter -key value2 -value_type integer -value 1217
+gui_create_state_key -category Layout_CovDetail_covGrpInsListView -key names -value_type string -value {Cover Group Item,    , ,  ,   ,Definition,Score,Goal,Weight,At Least,Per Instance,Overlap,Auto Bin Max,Print Missing,Comment,}
+gui_create_state_key -category Layout_CovDetail_covGrpInsListView -key orders -value_type string -value 4,0,1,2,3,5,6,7,8,9,10,11,12,13,14,
+gui_create_state_key -category Layout_CovDetail_covGrpInsListView -key widths -value_type string -value 137,25,25,0,0,68,125,30,42,50,74,0,80,76,55,
+gui_create_state_key -category Layout_CovDetail_covGrpDefListView -key names -value_type string -value {Cover Group Item,    , ,  ,   ,Score,Goal,Weight,At Least,Per Instance,Overlap,Auto Bin Max,Print Missing,Comment,}
+gui_create_state_key -category Layout_CovDetail_covGrpDefListView -key orders -value_type string -value 4,0,1,2,3,5,6,7,8,9,10,11,12,13,
+gui_create_state_key -category Layout_CovDetail_covGrpDefListView -key widths -value_type string -value 373,25,25,0,0,125,66,78,86,110,0,116,112,91,
+gui_create_state_key -category Layout_CovDetail_m_CovGrpTable -key names -value_type string -value {ch_id,    , ,  ,   ,Status,dest_port,At Least,Size,Hit Count,}
+gui_create_state_key -category Layout_CovDetail_m_CovGrpTable -key orders -value_type string -value 5,0,1,2,3,4,6,7,8,9,
+gui_create_state_key -category Layout_CovDetail_m_CovGrpTable -key widths -value_type string -value 93,0,25,0,0,150,150,62,40,68,
+gui_create_state_key -category {Layout_CovDetail_assertion list} -key names -value_type string -value {Instance,    , ,  ,   ,Assert Name,Attempts,Real Successes,Failures,Incompletes,Category,Severity,}
+gui_create_state_key -category {Layout_CovDetail_assertion list} -key orders -value_type string -value 4,0,1,2,3,5,6,7,8,9,10,11,
+gui_create_state_key -category {Layout_CovDetail_assertion list} -key widths -value_type string -value 86,25,25,0,0,111,87,130,110,106,91,86,
+gui_create_state_key -category Layout_CovDetail_funMiddleSplitter -key value1 -value_type integer -value 659
+gui_create_state_key -category Layout_CovDetail_funMiddleSplitter -key value2 -value_type integer -value 658
+gui_create_state_key -category Layout_CovDetail_splitterWithPrefVal -key value1 -value_type integer -value 100
+gui_create_state_key -category Layout_CovDetail_splitterWithPrefVal -key value2 -value_type integer -value 1
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd1|HSPane.1|pages|Class.1|hbox|textfilter -value_type string -value {*single* *master *uart single}
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd1|HSPane.1|pages|Hier.1|hbox|textfilter -value_type string -value {*s *sm *smok *smoke}
+gui_create_state_key -category Widget_History -key {TopLevel.1|qt_left_dock|DockWnd1|HSPane.1|pages|Stack.1|Stack.1_hbox|text filter} -value_type string -value {*single* *single *smoke}
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_cov -hier out/cov.vdb -testdir {} -test {out/cov/mac_small_packet_test_1 out/cov/mac_small_packet_test_10 out/cov/mac_small_packet_test_100 out/cov/mac_small_packet_test_1000 out/cov/mac_small_packet_test_10000 out/cov/mac_large_packet_test_10000 out/cov/mac_large_packet_test_1000 out/cov/mac_large_packet_test_100 out/cov/mac_large_packet_test_10 out/cov/mac_large_packet_test_1 out/cov/mac_oversized_packet_test_1 out/cov/mac_oversized_packet_test_10 out/cov/mac_oversized_packet_test_100 out/cov/mac_oversized_packet_test_1000 out/cov/mac_oversized_packet_test_10000 out/cov/mac_ipg_packet_test_10000 out/cov/mac_ipg_packet_test_1000 out/cov/mac_ipg_packet_test_100 out/cov/mac_ipg_packet_test_10 out/cov/mac_ipg_packet_test_1} -merge MergedTest
+gui_list_select -id CoverageTable.1 -list covtblInstancesList { mac_tb   }
+gui_list_expand -id  CoverageTable.1   -list {covtblInstancesList} mac_tb
+gui_list_collapse -id  CoverageTable.1   -list {covtblInstancesList} mac_tb
+gui_list_select -id CovHier.1 -current_item_name {/<Function Groups>} -current_item_type {}  { {/<Function Groups>}   } -type { {}  }
+gui_list_expand -id CovHier.1   {/<Function Groups>}
+gui_list_select -id CovHier.1 -current_item_name {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover} -current_item_type {Cover Group}  { {/<Function Groups>}  {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover}   } -type { {} {Cover Group}  }
+gui_list_expand -id CovHier.1   {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover}
+gui_list_action -id  CovHier.1 {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover}  -type {Cover Group}
+gui_list_expand -id  CovDetail.1   -list {covergroup} /xge_mac_pkg::mac_coverage::Ethernet_singals_cover/xge_mac_pkg::mac_coverage::Ethernet_singals_cover
+gui_list_select -id CovDetail.1 -list covergroup { /xge_mac_pkg::mac_coverage::Ethernet_singals_cover  /xge_mac_pkg::mac_coverage::Ethernet_singals_cover/xge_mac_pkg::mac_coverage::Ethernet_singals_cover   } -type { {Cover Group} {Cover Group}  }
+gui_open_source -id CovDetail.1  -active  xge_mac_pkg::mac_coverage::Ethernet_singals_coverMergedTest  -activate  -type {Cover Group}
+gui_list_expand -id  CovDetail.1   -list {Cover} {/<Function Groups>}
+gui_list_expand -id  CovDetail.1   -list {Cover} {/<Function Groups>}
+gui_list_expand -id  CovDetail.1   -list {covergroup} /xge_mac_pkg::mac_coverage::Ethernet_singals_cover
+gui_list_select -id CovDetail.1 -list covergroup { /xge_mac_pkg::mac_coverage::Ethernet_singals_cover   } -type { {Cover Group}  }
+gui_open_source -id CovDetail.1  -active  xge_mac_pkg::mac_coverage::Ethernet_singals_coverMergedTest  -activate  -type {Cover Group}
+gui_list_expand -id  CovDetail.1   -list {Cover} {/<Function Groups>}
+gui_list_expand -id  CovDetail.1   -list {covergroup} /xge_mac_pkg::mac_coverage::Ethernet_singals_cover
+gui_list_select -id CovDetail.1 -list covergroup { /xge_mac_pkg::mac_coverage::Ethernet_singals_cover   } -type { {Cover Group}  }
+gui_list_expand -id  CovDetail.1   -list {Cover} {/<Function Groups>}
+gui_list_expand -id  CovDetail.1   -list {covergroup} /xge_mac_pkg::mac_coverage::Ethernet_singals_cover
+gui_list_select -id CovDetail.1 -list covergroup { /xge_mac_pkg::mac_coverage::Ethernet_singals_cover   } -type { {Cover Group}  }
+gui_list_select -id CovDetail.1 -list covergroup { /xge_mac_pkg::mac_coverage::Ethernet_singals_cover  xge_mac_pkg::mac_coverage::Ethernet_singals_cover.LEN   } -type { {Cover Group} {Cover Group}  }
+gui_list_select -id CovDetail.1 -list covergroup { xge_mac_pkg::mac_coverage::Ethernet_singals_cover.LEN  xge_mac_pkg::mac_coverage::Ethernet_singals_cover.IPG   } -type { {Cover Group} {Cover Group}  }
+gui_list_select -id CovDetail.1 -list covergroup { xge_mac_pkg::mac_coverage::Ethernet_singals_cover.IPG  xge_mac_pkg::mac_coverage::Ethernet_singals_cover.DATA_SIZE   } -type { {Cover Group} {Cover Group}  }
+gui_list_select -id CovDetail.1 -list covergroup { xge_mac_pkg::mac_coverage::Ethernet_singals_cover.DATA_SIZE  /xge_mac_pkg::mac_coverage::Ethernet_singals_cover   } -type { {Cover Group} {Cover Group}  }
+gui_list_collapse -id  CovDetail.1   -list {covergroup} /xge_mac_pkg::mac_coverage::Ethernet_singals_cover
+gui_list_expand -id  CovDetail.1   -list {covergroup} /xge_mac_pkg::mac_coverage::Ethernet_singals_cover
+gui_list_select -id CovDetail.1 -list covergroup { /xge_mac_pkg::mac_coverage::Ethernet_singals_cover  xge_mac_pkg::mac_coverage::Ethernet_singals_cover.DATA_SIZE   } -type { {Cover Group} {Cover Group}  }
+gui_list_select -id CovDetail.1 -list covergroup { xge_mac_pkg::mac_coverage::Ethernet_singals_cover.DATA_SIZE   } -type { {Cover Group}  }
+gui_list_select -id CovDetail.1 -list covergroup { xge_mac_pkg::mac_coverage::Ethernet_singals_cover.LEN   } -type { {Cover Group}  }
+gui_list_select -id CovHier.1 -current_item_name {/<Design Hierarchy>} -current_item_type {}  { {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover}  {/<Design Hierarchy>}   } -type { {Cover Group} {}  }
+gui_list_collapse -id CovHier.1   {/<Design Hierarchy>}
+gui_list_select -id CovHier.1 -current_item_name {/<Function Groups>} -current_item_type {}  { {/<Design Hierarchy>}  {/<Function Groups>}   } -type { {} {}  }
+gui_list_select -id CovHier.1 -current_item_name {/<Design Hierarchy>} -current_item_type {}  { {/<Function Groups>}  {/<Design Hierarchy>}   } -type { {} {}  }
+gui_list_expand -id CovHier.1   {/<Design Hierarchy>}
+gui_list_select -id CovHier.1 -current_item_name mac_tb -current_item_type Scope  { {/<Design Hierarchy>}  mac_tb   } -type { {} Scope  }
+gui_list_expand -id CovHier.1   mac_tb
+gui_list_action -id  CovHier.1 mac_tb  -type {Scope}
+gui_list_select -id CovDetail.1 -list line { Statement   }
+gui_list_select -id CovDetail.1 -list line { Statement  Block   }
+gui_list_select -id CovDetail.1 -list line { Block  Statement   }
+gui_list_select -id CovHier.1 -current_item_name {/<Design Hierarchy>} -current_item_type {}  { mac_tb  {/<Design Hierarchy>}   } -type { Scope {}  }
+gui_list_collapse -id CovHier.1   {/<Design Hierarchy>}
+gui_list_expand -id CovHier.1   {/<Design Hierarchy>}
+gui_list_select -id CovHier.1 -current_item_name mac_tb -current_item_type Scope  { {/<Design Hierarchy>}  mac_tb   } -type { {} Scope  }
+gui_list_collapse -id CovHier.1   mac_tb
+gui_list_action -id  CovHier.1 mac_tb  -type {Scope}
+gui_show_window -window CovDetail.1
+gui_covdetail_select -id  CovDetail.1   -region   {mac_tb} -type {Module}
+gui_covdetail_select -id  CovDetail.1   -name   Toggle
+gui_covdetail_select -id  CovDetail.1   -name   FSM
+gui_covdetail_select -id  CovDetail.1   -name   Condition
+gui_covdetail_select -id  CovDetail.1   -name   Branch
+gui_covdetail_select -id  CovDetail.1   -name   Assert
+gui_covdetail_select -id  CovDetail.1   -name   Toggle
+gui_covdetail_select -id  CovDetail.1   -name   Line
+gui_list_select -id CovHier.1 -current_item_name uvm_custom_install_recording -current_item_type Scope  { mac_tb  uvm_custom_install_recording   } -type { Scope Scope  }
+gui_list_select -id CovHier.1 -current_item_name uvm_custom_install_verdi_recording -current_item_type Scope  { uvm_custom_install_recording  uvm_custom_install_verdi_recording   } -type { Scope Scope  }
+gui_list_select -id CovHier.1 -current_item_name {/<Module List>} -current_item_type {}  { uvm_custom_install_verdi_recording  {/<Module List>}   } -type { Scope {}  }
+gui_list_select -id CovHier.1 -current_item_name {/<Design Hierarchy>} -current_item_type {}  { {/<Module List>}  {/<Design Hierarchy>}   } -type { {} {}  }
+gui_list_collapse -id CovHier.1   {/<Design Hierarchy>}
+gui_open_window CoverageMap 
+gui_covmap_show -id CoverageMap.1 -show { Design Hierarchy } 
+gui_covmap_setroot -id  CoverageMap.1 {/<Design Hierarchy>} 
+gui_covmap_select -id  CoverageMap.1 mac_tb
+gui_show_window -window CovDetail.1
+gui_show_window -window CoverageMap.1
+gui_covmap_select -id  CoverageMap.1 uvm_custom_install_verdi_recording
+gui_covmap_select -id  CoverageMap.1 uvm_custom_install_recording
+gui_covmap_select -id  CoverageMap.1 mac_tb
+gui_list_select -id CovHier.1 -current_item_name {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover} -current_item_type {Cover Group}  { {/<Design Hierarchy>}  {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover}   } -type { {} {Cover Group}  }
+gui_list_collapse -id CovHier.1   {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover}
+gui_list_action -id  CovHier.1 {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover}  -type {Cover Group}
+gui_list_select -id CovHier.1 -current_item_name {/<Function Groups>} -current_item_type {}  { {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover}  {/<Function Groups>}   } -type { {Cover Group} {}  }
+gui_list_collapse -id CovHier.1   {/<Function Groups>}
+gui_list_select -id CovHier.1 -current_item_name {/<Design Hierarchy>} -current_item_type {}  { {/<Function Groups>}  {/<Design Hierarchy>}   } -type { {} {}  }
+gui_list_expand -id CovHier.1   {/<Design Hierarchy>}
+gui_covtable_setroot -id  CoverageTable.1 {/<Design Hierarchy>} 
+gui_show_window -window CovDetail.1
+gui_src_cov_navigation_set_criteria -id CovDetail.1 -category Covered
+gui_update_navigation_combo CovDetail.1
+gui_src_cov_navigation_set_criteria -id CovDetail.1 -category Uncovered
+gui_update_navigation_combo CovDetail.1
+gui_src_cov_navigation_set_criteria -id CovDetail.1 -category Covered
+gui_update_navigation_combo CovDetail.1
+gui_list_select -id CovHier.1 -current_item_name {/<Function Groups>} -current_item_type {}  { {/<Design Hierarchy>}  {/<Function Groups>}   } -type { {} {}  }
+gui_list_expand -id CovHier.1   {/<Function Groups>}
+gui_list_select -id CovHier.1 -current_item_name {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover} -current_item_type {Cover Group}  { {/<Function Groups>}  {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover}   } -type { {} {Cover Group}  }
+gui_list_expand -id CovHier.1   {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover}
+gui_list_action -id  CovHier.1 {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover}  -type {Cover Group}
+gui_show_window -window CoverageTable.1
+gui_list_select -id CoverageTable.1 -list covtblInstancesList { mac_tb   }
+gui_list_expand -id  CoverageTable.1   -list {covtblInstancesList} mac_tb
+gui_list_expand -id  CoverageTable.1   -list {covtblInstancesList} mac_tb.dut
+gui_list_expand -id  CoverageTable.1   -list {covtblInstancesList} mac_tb.dut.rx_hold_fifo0
+gui_list_expand -id  CoverageTable.1   -list {covtblInstancesList} mac_tb.dut.rx_data_fifo0
+gui_list_expand -id  CoverageTable.1   -list {covtblInstancesList} mac_tb.dut.sync_clk_wb0
+gui_list_expand -id  CoverageTable.1   -list {covtblInstancesList} mac_tb.dut.sync_clk_xgmii_tx0
+gui_list_expand -id  CoverageTable.1   -list {covtblInstancesList} mac_tb.dut.tx_data_fifo0
+gui_list_expand -id  CoverageTable.1   -list {covtblInstancesList} mac_tb.dut.tx_hold_fifo0
+gui_list_collapse -id  CoverageTable.1   -list {covtblInstancesList} mac_tb.dut.rx_data_fifo0
+gui_list_collapse -id  CoverageTable.1   -list {covtblInstancesList} mac_tb.dut.rx_hold_fifo0
+gui_list_collapse -id  CoverageTable.1   -list {covtblInstancesList} mac_tb.dut.tx_data_fifo0
+gui_list_collapse -id  CoverageTable.1   -list {covtblInstancesList} mac_tb.dut.tx_hold_fifo0
+gui_list_select -id CoverageTable.1 -list covtblInstancesList { mac_tb.dut   }
+gui_list_select -id CoverageTable.1 -list covtblInstancesList { mac_tb.dut  mac_tb.dut.fault_sm0   }
+gui_list_action -id  CoverageTable.1 -list {covtblInstancesList} mac_tb.dut.fault_sm0  -column {Score} 
+gui_show_window -window CoverageTable.1
+gui_list_action -id  CoverageTable.1 -list {covtblInstancesList} mac_tb.dut.fault_sm0  -column {Score} 
+gui_src_edit_source   -file_name  /home/ICer/my_prjs/10GE_MAC/uvm/sim/../../rtl/verilog/fault_sm.v  -line_number  3
+gui_cov_src_double_click -id CovDetail.1 -line 102 -col 38 -insert 0 -file /home/ICer/my_prjs/10GE_MAC/uvm/sim/../../rtl/verilog/fault_sm.v
+gui_exclude_items -id CovDetail.1  -source   { 102  } 
+gui_exclude_items -id CovDetail.1  -source   { 102  }  -include
+gui_exclude_items -id CovDetail.1  -source   { 102  } 
+gui_exclude_items -id CovDetail.1  -source   { 102  }  -include
+gui_exclude_items -id CovDetail.1  -source   { 102  } 
+gui_exclude_items -id CovDetail.1  -source   { 102  }  -include
+gui_exclude_items -id CovDetail.1  -source   { 102  } 
+gui_exclude_items -id CovDetail.1  -source   { 115  } 
+gui_exclude_items -id CovDetail.1  -source   { 174  } 
+gui_exclude_items -id CovDetail.1  -source   { 175  } 
+gui_exclude_items -id CovDetail.1  -source   { 178  } 
+gui_show_window -window CoverageTable.1
+gui_show_window -window CoverageMap.1
+gui_show_window -window CovDetail.1
+gui_exclusion -id CovDetail.1 -recalculate
+gui_exclude_items -id CovDetail.1  -source   { 175  }  -include
+gui_exclude_items -id CovDetail.1  -source   { 178  }  -include
+gui_exclude_items -id CovDetail.1  -source   { 174  }  -include
+gui_exclude_items -id CovDetail.1  -source   { 115  }  -include
+gui_exclude_items -id CovDetail.1  -source   { 102  }  -include
+gui_exclusion -id CovDetail.1 -recalculate
+gui_exclude_items -id CovDetail.1  -source   { 99  } 
+gui_exclude_items -id CovDetail.1  -source   { 102  } 
+gui_exclude_items -id CovDetail.1  -source   { 102  }  -include
+gui_exclusion -id CovDetail.1 -recalculate
+gui_exclude_items -id CovDetail.1  -source   { 99  }  -include
+gui_exclusion -id CovDetail.1 -recalculate
+gui_list_select -id CovDetail.1 -list line { Block  Statement   }
+gui_list_collapse -id CovHier.1   {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover}
+gui_list_action -id  CovHier.1 {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover}  -type {Cover Group}
+gui_show_window -window CoverageMap.1
+gui_show_window -window CovDetail.1
+gui_show_window -window CoverageMap.1
+gui_covmap_show -id  CoverageMap.1  -show { Module List }
+gui_list_expand -id  CovHier.1   {/<Module List>}
+gui_list_collapse -id  CovHier.1   {/<Module List>}
+gui_show_window -window CoverageMap.1
+gui_covmap_select -id  CoverageMap.1 tx_dequeue
+gui_covmap_select -id  CoverageMap.1 xge_mac
+gui_covmap_select -id  CoverageMap.1 mac_if
+gui_covmap_select -id  CoverageMap.1 xge_mac
+gui_covmap_select -id  CoverageMap.1 tx_dequeue
+gui_open_source -active tx_dequeue -activate -matrix CodeDefault -type Module
+gui_show_window -window CoverageMap.1
+gui_covmap_select -id  CoverageMap.1 xge_mac
+gui_open_source -active xge_mac -activate -matrix CodeDefault -type Module
+gui_show_window -window CoverageMap.1
+gui_covmap_select -id  CoverageMap.1 generic_fifo_ctrl
+gui_open_source -active generic_fifo_ctrl -activate -matrix CodeDefault -type Module
+gui_show_window -window CoverageMap.1
+gui_covmap_select -id  CoverageMap.1 uvm_custom_install_verdi_recording
+gui_open_source -active uvm_custom_install_verdi_recording -activate -matrix CodeDefault -type Module
+gui_show_window -window CoverageMap.1
+gui_covmap_select -id  CoverageMap.1 tx_dequeue
+gui_open_source -active tx_dequeue -activate -matrix CodeDefault -type Module
+gui_show_window -window CoverageMap.1
+gui_covmap_select -id  CoverageMap.1 sync_clk_xgmii_tx
+gui_show_window -window CoverageMap.1
+gui_covmap_show -id  CoverageMap.1  -show { Function Groups }
+gui_covmap_select -id  CoverageMap.1 {/<Function Groups>}
+gui_covmap_show -id  CoverageMap.1  -show { Design Hierarchy }
+gui_covmap_show -id  CoverageMap.1  -show { Module List }
+gui_show_window -window CovDetail.1
+gui_list_expand -id CovHier.1   {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover}
+gui_list_action -id  CovHier.1 {/<Function Groups>/xge_mac_pkg::mac_coverage::Ethernet_singals_cover}  -type {Cover Group}
+gui_list_expand -id  CovDetail.1   -list {covergroup} /xge_mac_pkg::mac_coverage::Ethernet_singals_cover/xge_mac_pkg::mac_coverage::Ethernet_singals_cover
+gui_list_select -id CovDetail.1 -list covergroup { /xge_mac_pkg::mac_coverage::Ethernet_singals_cover  xge_mac_pkg::mac_coverage::Ethernet_singals_cover.LEN   } -type { {Cover Group} {Cover Group}  }
